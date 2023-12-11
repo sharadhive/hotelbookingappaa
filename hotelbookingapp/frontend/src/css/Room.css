@@ -1,0 +1,206 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    background: rgb(248, 245, 245);
+    max-width: 600px;
+    border: 0.1px solid lightgray;
+  }
+  
+  
+  .room-container {
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .roomImage img {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .room {
+    font-weight: 600;
+  }
+  
+  .title {
+    font-size: 1.3rem;
+  }
+  
+  .viewDetails {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+  }
+  
+  .carousel-area img {
+    min-width: 500px;
+    max-width: 100%;
+    height: 300px;
+  }
+  .description-area {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.5rem 0.5rem;
+  }
+  
+  .bookbtn,
+  .closebtn {
+    font-size: 0.9rem;
+  }
+  
+  .filter-container {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  
+  .filter-input {
+    border: 0.5px solid gray;
+    width: 160px;
+    max-width: 100%;
+    border-radius: 7px;
+    overflow: hidden;
+  height: 33px; 
+  }
+  
+  .filter-input:first-of-type:hover {
+    border: none;
+    border-color: #007bff;
+  }
+  
+  .filter-input:nth-child(2) {
+    display: flex !important;
+    align-items: center !important;
+  }
+  .filter-input:nth-child(3){
+    width: 160px;
+  }
+  
+  .filter-input:nth-child(3):hover {
+    border-color: #007bff;
+  }
+  
+  .filter-input:nth-child(2):hover {
+    border-color: #007bff;
+  }
+  
+  .search-input {
+    border: 0.5px solid gray;
+    padding: 2px 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+  }
+  
+  .search-input:focus {
+    border-color: #007bff;
+    padding: 0 5px;
+    color: gray;
+  }
+  
+  #dropdown:focus {
+  outline: none;
+  }
+  /* Add this CSS in your component's CSS file or style tag */
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    .filter-container {
+      width: 100%;
+    }
+    .filter-input {
+     width: 180px !important;
+    }
+  
+    .filter-input:first-of-type {
+      width: 180px !important;
+    }
+  }
+  
+  @media (max-width: 552px) {
+    .container {
+      width: 95%;
+      height: 210px;
+    }
+    .room-container {
+      width: 100%;
+      padding: 0.5rem;
+      gap: 1rem !important;
+    }
+    .title {
+      font-size: 1.2rem;
+    }
+    .carousel-area img {
+      min-width: 500px;
+      max-width: 100%;
+      height: 200px;
+    }
+  
+    .viewDetails {
+      font-size: 0.8rem !important;
+      bottom: 20px;
+      right: 10px;
+    }
+  
+    .modal-main {
+      width: 80%;
+      text-align: center;
+      position: absolute;
+      left: 10%;
+    }
+  
+    .filter-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .filter-input {
+      width: 60% !important;
+     }
+   
+     .filter-input:first-of-type {
+       width: 60% !important;
+     }
+  }
+  
+  .bookbtn {
+    width: 100% !important;
+  }
+  
+  @media (max-width: 378px) {
+    .container {
+      width: 95%;
+      height: 210px;
+    }
+    .room-container {
+      width: 100%;
+      padding: 0.5rem;
+      gap: 0.5rem !important;
+    }
+    .roomDetails {
+      gap: 0.6rem !important;
+    }
+  
+    .title {
+      font-size: 1rem;
+    }
+  
+  
+    .viewDetails {
+      position: absolute;
+      bottom: 15px;
+      right: 10px;
+      font-size: 0.7rem !important;
+    }
+  }

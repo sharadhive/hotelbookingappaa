@@ -1,0 +1,66 @@
+.add-room-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+   
+  }
+  
+  .add-room-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+  }
+  
+  .add-room-container input,
+  .add-room-container textarea,
+  .add-room-container button {
+  width: 90%;
+    padding: 12px 5px;
+    margin: 0.5rem 0.3rem;
+    font-size: 0.8rem;
+    /* box-sizing: border-box; */
+  }
+  
+  .holder {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .add-room-container form {
+      width: 70%;
+    
+    }
+    .add-room-container  .holder  input,
+  .add-room-container  .holder textarea,
+  .add-room-container .holder button {
+  width: 100%;
+    padding: 8px 5px;
+    margin: 0.8rem 0.3rem;
+    /* box-sizing: border-box; */
+  }
+  }
+  
+  
+  @media (max-width: 552px) {
+    .add-room-container {
+      width: 100%;
+    }
+    .add-room-container form {
+      width: 100%;
+    
+    }
+    .holder  input,
+   .holder textarea,
+  .holder button {
+  width: 80%;
+    padding: 10px 5px;
+    margin: 0.6rem 0.3rem;
+    box-sizing: border-box;
+  }
+  }

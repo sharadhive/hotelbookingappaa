@@ -1,0 +1,89 @@
+  
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px  solid gray; 
+    background: rgb(248, 245, 245);
+    padding: 15px;
+    width: 100%;
+   
+  }
+  
+  .navbar-left {
+    flex: 1;
+    font-weight: 750;
+    font-style: italic;
+    font-size: 1.4rem;
+  }
+  
+  .navbar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex: 1;
+    font-weight: 500 !important;
+    font-size: 1.1rem;
+  }
+  
+  .nav-link {
+    font-weight: 550;
+  }
+  .userName {
+    color: rgb(231, 56, 56);
+  }
+  /* Style for links */
+  .navbar-right a {
+  
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  /* Media query for responsive design */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+     align-items: center;
+     justify-content: center;
+     gap: 1rem;
+    }
+  
+    /* .navbar-left,
+    .navbar-right {
+      flex: unset;
+      width: 100%;
+      margin-bottom: 10px;
+    } */
+  
+    .navbar-right a {
+      margin: 0;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 552px) {
+.navbar {
+  width: 100%;
+}
+
+    .navbar-left  {
+      font-size: 4.2vw ;
+    }
+
+    .navbar-right {
+      font-size: 3.2vw ;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .navbar-left  {
+      font-size: 4.1vw ;
+    }
+
+    .navbar-right {
+      font-size: 3.3vw ;
+    }
+  }

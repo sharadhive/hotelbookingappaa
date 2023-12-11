@@ -1,0 +1,73 @@
+[
+    {
+      "name": "Deluxe Single Room",
+      "desc": "Experience the epitome of comfort in our Deluxe Single Room. Designed for solo travelers seeking a tranquil retreat, this room features a plush bed and modern amenities. Immerse yourself in the serene ambiance and enjoy a peaceful night's sleep. Whether you're here for business or leisure, our Deluxe Single Room offers a perfect blend of relaxation and functionality.",
+      "type": "single",
+      "price": 120,
+      "img": ["https://example.com/image1.jpg", "https://example.com/image2.jpg"]
+    },
+    {
+      "name": "Executive Double Room",
+      "desc": "Indulge in the spacious elegance of our Executive Double Room. Ideal for couples or those desiring extra space, this room boasts two comfortable beds for a restful night's sleep. The room's sophisticated ambiance and modern amenities create a welcoming environment for your stay. Whether you're on a romantic getaway or traveling with a friend, our Executive Double Room ensures a memorable and comfortable experience.",
+      "type": "double",
+      "price": 180,
+      "img": ["https://example.com/image3.jpg", "https://example.com/image4.jpg"]
+    },
+    {
+      "name": "Presidential Suite",
+      "desc": "Unwind in unparalleled luxury with our Presidential Suite. Revel in breathtaking views and a plethora of amenities for an extraordinary experience. This expansive suite is perfect for those seeking the utmost in opulence and relaxation. Whether it's a special occasion or a desire for indulgence, our Presidential Suite is crafted to surpass your expectations. Immerse yourself in grandeur and enjoy flawless service and attention to detail throughout your stay.",
+      "type": "suite",
+      "price": 350,
+      "img": ["https://example.com/image5.jpg"]
+    },
+    {
+      "name": "Family Suite",
+      "desc": "Create lasting memories with your loved ones in our spacious Family Suite. Featuring multiple beds and a welcoming atmosphere, this suite is perfect for family vacations. Enjoy the comforts of home combined with modern amenities, ensuring a delightful stay for everyone. Whether you're exploring the city or simply relaxing together, our Family Suite provides a comfortable and memorable experience.",
+      "type": "suite",
+      "price": 280,
+      "img": ["https://example.com/image6.jpg", "https://example.com/image7.jpg"]
+    },
+    {
+      "name": "Business Class Room",
+      "desc": "Enhance your work trip with the comfort of our Business Class Room. Ideal for business travelers, this room offers a dedicated workspace and all the amenities needed for a productive stay. After a day of meetings, unwind in the cozy ambiance and enjoy a good night's rest. Our Business Class Room is designed to cater to the needs of the modern professional, combining functionality with comfort.",
+      "type": "single",
+      "price": 150,
+      "img": ["https://example.com/image8.jpg"]
+    },
+    {
+      "name": "Classic Twin Room",
+      "desc": "Experience classic charm in our Classic Twin Room. Perfect for friends or travel companions, this room features two comfortable beds and a timeless decor. Immerse yourself in the inviting ambiance and enjoy a cozy stay. Whether you're exploring the city or simply relaxing, our Classic Twin Room provides a classic and comfortable retreat.",
+      "type": "double",
+      "price": 160,
+      "img": ["https://example.com/image9.jpg", "https://example.com/image10.jpg"]
+    },
+    {
+      "name": "Penthouse Suite",
+      "desc": "Indulge in the height of luxury with our Penthouse Suite. Boasting breathtaking views and lavish amenities, this suite offers a truly extraordinary experience. The spacious layout and elegant decor create a haven of opulence. Whether it's a special celebration or a desire for exclusivity, our Penthouse Suite promises a stay beyond compare. Immerse yourself in luxury and enjoy impeccable service throughout your time in our Penthouse.",
+      "type": "suite",
+      "price": 400,
+      "img": ["https://example.com/image11.jpg"]
+    },
+    {
+      "name": "Adjoining Rooms",
+      "desc": "Enjoy the convenience of Adjoining Rooms for a flexible and spacious accommodation option. Perfect for families or groups, these rooms provide the comfort of individual spaces while keeping you connected. With modern amenities and a welcoming ambiance, our Adjoining Rooms offer the perfect balance of privacy and togetherness for a memorable stay.",
+      "type": "double",
+      "price": 200,
+      "img": ["https://example.com/image12.jpg", "https://example.com/image13.jpg"]
+    },
+    {
+      "name": "Economy Single Room",
+      "desc": "Opt for affordability without compromising on comfort in our Economy Single Room. Ideal for budget-conscious solo travelers, this room offers a cozy bed and essential amenities for a pleasant stay. Experience a balance of comfort and value, ensuring a restful night's sleep without breaking the bank. Our Economy Single Room is the perfect choice for those seeking a practical and comfortable accommodation option.",
+      "type": "single",
+      "price": 80,
+      "img": ["https://example.com/image14.jpg"]
+    },
+    {
+      "name": "Romantic Hideaway",
+      "desc": "Escape to a Romantic Hideaway for a getaway filled with love and charm. This intimate retreat is designed for couples seeking a cozy and romantic experience. The room features special touches, creating a warm and inviting atmosphere. Whether it's a special occasion or a desire for a romantic escape, our Romantic Hideaway promises a memorable and enchanting stay.",
+      "type": "double",
+      "price": 190,
+      "img": ["https://example.com/image15.jpg", "https://example.com/image16.jpg"]
+    }
+  ]
+  

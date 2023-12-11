@@ -1,0 +1,85 @@
+.signup-container {
+    max-width: 450px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 1.5rem auto;
+}
+
+.signup-form {
+    text-align: center;
+}
+
+.signup-form h2 {
+    color: #333;
+    margin-bottom: 1.2rem;
+}
+
+.signup-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registertbn {
+    outline: 1px solid #14A44D !important;
+    background: transparent !important;
+    color: #14A44D !important;
+    font-size: 1.2rem;
+}
+
+.registertbn:hover{
+    background: #14A44D !important;
+    color: white !important;
+    transition: 0.3s ease !important;
+}
+
+
+.login-here{
+    font-size: 0.8rem;
+    margin: 0.8rem auto !important;
+    text-align: center;
+}
+
+
+/* Responsive CSS */
+@media (max-width: 768px) {
+    .signup-container {
+        max-width: 80%;
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .signup-form {
+        padding: 10px;
+    }
+
+    .signup-form input {
+        padding: 5px;
+    }
+
+    .signup-form button {
+        padding: 8px;
+    }
+}

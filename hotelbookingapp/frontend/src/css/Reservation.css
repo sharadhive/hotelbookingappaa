@@ -1,0 +1,49 @@
+.room-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 50%;
+  }
+  
+  .room-image img {
+    width: 100%; /* Image takes full width */
+    max-width: 200px; /* Limit maximum width */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .room-details {
+    flex-grow: 1; /* Allows details to take remaining width */
+    padding: 0 20px; /* Add some padding */
+  }
+  
+  .room-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .room-details p {
+    margin: 5px 0;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .room-details-container {
+      flex-direction: column; /* Stack items in a column on smaller screens */
+      align-items: center;
+    }
+  
+    .room-image img {
+      max-width: 100%; /* Image takes full width */
+      margin-bottom: 0;
+    }
+  
+    .room-details {
+      padding: 0;
+      text-align: center;
+    }
+  }
+  

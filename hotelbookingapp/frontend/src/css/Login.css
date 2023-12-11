@@ -1,0 +1,88 @@
+
+
+.custom-container {
+    max-width: 450px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 2.5rem auto;
+  
+}
+
+.custom-login-form {
+    text-align: center;
+}
+
+.custom-login-form h2 {
+    color: #333;
+    padding-bottom: 1.3rem;
+}
+
+
+
+.custom-login-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.custom-login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.custom-login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.loginbtn {
+    outline: 1px solid #14A44D !important;
+    background: transparent !important;
+    color: #14A44D !important;
+    font-size: 1.2rem;
+}
+
+.loginbtn:hover {
+    background: #14A44D !important;
+    color: white !important;
+    transition: 0.3s ease !important;
+}
+
+
+.registerhere {
+    font-size: 0.8rem;
+    margin: 0.8rem auto !important;
+    text-align: center;
+}
+/* Responsive CSS */
+@media (max-width: 768px) {
+    .custom-container {
+        max-width: 80%;
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-login-form {
+        padding: 10px;
+    }
+
+    .custom-login-form input {
+        padding: 5px;
+    }
+
+    .custom-login-form button {
+        padding: 8px;
+    }
+}
